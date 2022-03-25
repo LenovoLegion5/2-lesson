@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(30, 163, 123);
+}
+.card{
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    height: 600px;
+    background-color: #fff;
+    box-shadow: 0 0 25px 1px;
+    padding: 70px;
+    margin-top: 100px;
+    margin-left: 550px;
+    display: flexbox;
+}
+.card-p{
+    font-size: 22px;
+    color: gray;
+    margin-top: 20px;
+}
+.icon{
+    color: black;
+    font-size: 30px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 400px;
+}
+.icon:hover{
+    box-shadow: 0px 0px 5px 10px gray;
+}
+.price{
+    display: flex;
+    margin-top: 50px;
+}
+.pricing{
+    font-size: 25px;
+    line-height: 70px;
+}
+section{
+    margin-left: auto;
+}
+.dollar{
+    line-height: 70px;
+    font-size: 35px;
+    font-weight: bold;
+}
+img{
+    width: 700px;
+    position: absolute;
+    bottom: -200px;
+    left: 80px;
+}
